@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "last_updated": "2025-06-15",
+    "tool": "Manual + Google Search Console + Ahrefs",
+    "strategy": "Target a mix of high-intent commercial keywords ($37 product), informational keywords (blog + GEO), and long-tail question keywords (FAQ schema + AI search). Content should rank in traditional search AND surface in AI answer engines (Perplexity, ChatGPT search, Google SGE).",
+    "primary_persona": "Knowledge worker 28–45, any industry, anxious about AI disruption, looking for practical guidance not theory"
+  },
+
+  "primary_keywords": [
+    {
+      "keyword": "AI career guide",
+      "volume_est": "4,400/mo",
+      "difficulty": "Medium",
+      "intent": "informational",
+      "target_page": "blog/ai-career-survival-guide.html",
+      "notes": "High GEO potential — target with FAQ schema"
+    },
+    {
+      "keyword": "how to use AI at work",
+      "volume_est": "8,100/mo",
+      "difficulty": "Medium-High",
+      "intent": "informational",
+      "target_page": "blog/ai-career-survival-guide.html",
+      "notes": "Primary blog keyword. Long-form content competes well."
+    },
+    {
+      "keyword": "AI tools for professionals",
+      "volume_est": "3,600/mo",
+      "difficulty": "Medium",
+      "intent": "commercial-informational",
+      "target_page": "index.html + blog",
+      "notes": "Bridges product and content. Use in meta descriptions."
+    },
+    {
+      "keyword": "AI career strategy",
+      "volume_est": "2,400/mo",
+      "difficulty": "Low-Medium",
+      "intent": "informational",
+      "target_page": "blog/ai-career-survival-guide.html",
+      "notes": "Lower competition. Good secondary blog keyword."
+    },
+    {
+      "keyword": "prompt engineering for beginners",
+      "volume_est": "12,100/mo",
+      "difficulty": "High",
+      "intent": "informational",
+      "target_page": "blog (future post)",
+      "notes": "High volume. Create dedicated blog post: 'RISEN prompt framework for beginners'"
+    },
+    {
+      "keyword": "AI blueprint guide",
+      "volume_est": "1,000/mo",
+      "difficulty": "Low",
+      "intent": "navigational/commercial",
+      "target_page": "index.html",
+      "notes": "Branded + semi-branded. Easy win. Ensure landing page is optimised."
+    },
+    {
+      "keyword": "future of work AI",
+      "volume_est": "5,400/mo",
+      "difficulty": "High",
+      "intent": "informational",
+      "target_page": "blog",
+      "notes": "High competition but high GEO potential. Include in FAQ schema."
+    },
+    {
+      "keyword": "will AI take my job",
+      "volume_est": "18,100/mo",
+      "difficulty": "High",
+      "intent": "informational",
+      "target_page": "blog + FAQ schema on index.html",
+      "notes": "Very high intent — fear-based query. Perfect FAQ schema target."
+    },
+    {
+      "keyword": "AI skills to learn 2025",
+      "volume_est": "6,600/mo",
+      "difficulty": "Medium",
+      "intent": "informational",
+      "target_page": "blog (future post)",
+      "notes": "Seasonal but high volume. New blog post target."
+    },
+    {
+      "keyword": "ChatGPT prompts for work",
+      "volume_est": "9,900/mo",
+      "difficulty": "Medium",
+      "intent": "commercial-informational",
+      "target_page": "blog (future post: '15 ChatGPT prompts for professionals')",
+      "notes": "Very high potential for Pinterest and social traffic too."
+    }
+  ],
+
+  "long_tail_keywords": [
+    {
+      "keyword": "how to use ChatGPT for my job",
+      "volume_est": "2,900/mo",
+      "difficulty": "Low",
+      "intent": "informational",
+      "target_page": "blog",
+      "geo_potential": "High — direct question format"
+    },
+    {
+      "keyword": "AI career survival guide",
+      "volume_est": "1,300/mo",
+      "difficulty": "Low",
+      "intent": "commercial",
+      "target_page": "blog + lead magnet",
+      "geo_potential": "Medium"
+    },
+    {
+      "keyword": "how to protect your career from AI",
+      "volume_est": "2,200/mo",
+      "difficulty": "Low",
+      "intent": "informational",
+      "target_page": "blog",
+      "geo_potential": "Very High — exact question format"
+    },
+    {
+      "keyword": "AI prompt engineering RISEN framework",
+      "volume_est": "720/mo",
+      "difficulty": "Very Low",
+      "intent": "informational",
+      "target_page": "blog + index.html FAQ",
+      "geo_potential": "Very High — branded framework, easy to rank"
+    },
+    {
+      "keyword": "AI jobs replacing workers 2025",
+      "volume_est": "4,400/mo",
+      "difficulty": "Medium",
+      "intent": "informational",
+      "target_page": "blog",
+      "geo_potential": "High"
+    },
+    {
+      "keyword": "how to become AI fluent",
+      "volume_est": "880/mo",
+      "difficulty": "Very Low",
+      "intent": "informational",
+      "target_page": "blog",
+      "geo_potential": "High"
+    },
+    {
+      "keyword": "AI career checklist free",
+      "volume_est": "590/mo",
+      "difficulty": "Very Low",
+      "intent": "commercial",
+      "target_page": "lead-magnet.html",
+      "geo_potential": "Medium"
+    },
+    {
+      "keyword": "best AI guide for non-technical professionals",
+      "volume_est": "480/mo",
+      "difficulty": "Very Low",
+      "intent": "commercial",
+      "target_page": "index.html",
+      "geo_potential": "High — exactly matches product positioning"
+    }
+  ],
+
+  "geo_keywords": {
+    "description": "Keywords specifically optimised for AI search engines (Perplexity, ChatGPT, Google AI Overviews, Claude). These are conversational, question-format queries where structured schema answers surface prominently.",
+    "targets": [
+      "What is the best AI career guide?",
+      "How do I use AI without technical skills?",
+      "What AI skills should I learn first?",
+      "Is AI going to take my job?",
+      "What is prompt engineering and how do I learn it?",
+      "What is the RISEN prompt framework?",
+      "How long does it take to become AI fluent?",
+      "Which industries are most affected by AI?",
+      "What does an AI strategy guide cover?",
+      "What are the best AI tools for professionals in 2025?"
+    ],
+    "implementation": "All these questions are answered in FAQ schema on index.html and blog posts. Keep answers concise (2–4 sentences), factual, and cite specifics where possible."
+  },
+
+  "content_clusters": [
+    {
+      "pillar": "AI Career Strategy",
+      "pillar_page": "index.html (product landing)",
+      "cluster_posts": [
+        "How to AI-Proof Your Career in 2025 (blog/ai-career-survival-guide.html)",
+        "The RISEN Prompt Framework: Complete Guide (future)",
+        "Which Jobs Are Safe from AI? An Honest Assessment (future)",
+        "How to Use AI at Work Without Getting Fired (future)",
+        "5 AI Roles Hiring Right Now and What They Pay (future)"
+      ]
+    },
+    {
+      "pillar": "AI Tools for Professionals",
+      "pillar_page": "blog (future pillar page)",
+      "cluster_posts": [
+        "ChatGPT vs Claude vs Gemini: Which Should You Use at Work? (future)",
+        "15 ChatGPT Prompts for Marketing Professionals (future)",
+        "10 AI Prompts for Finance Teams (future)",
+        "Best AI Tools for Healthcare Professionals (future)",
+        "How to Use AI for Education and Teaching (future)"
+      ]
+    }
+  ],
+
+  "shopify_blog_strategy": {
+    "url_structure": "YOUR-STORE.myshopify.com/blogs/news/[keyword-slug]",
+    "posting_frequency": "2 posts per week minimum",
+    "optimal_word_count": "1,800–2,500 words (comprehensive but readable)",
+    "internal_linking": "Every blog post links to: product page, lead magnet, and 1–2 other blog posts",
+    "tags": ["ai-career", "prompt-engineering", "future-of-work", "ai-tools", "career-strategy"],
+    "seo_checklist": [
+      "Primary keyword in H1, first paragraph, and at least 2 H2s",
+      "FAQ section at bottom with schema markup",
+      "Internal link to product page with anchor text 'The AI Blueprint'",
+      "CTA to lead magnet mid-article and at end",
+      "Optimised meta title (60 chars max) and description (155 chars max)",
+      "Image alt text includes keyword",
+      "Readable URL slug (50 chars max, keyword first)"
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "product": "The AI Blueprint — Lumenora Edition",
+    "price": "$37",
+    "gumroad_url": "https://lumenora.gumroad.com/l/hltwgb",
+    "lead_magnet_url": "/lead-magnet.html",
+    "blog_url": "/blog/ai-career-survival-guide.html",
+    "brand_voice": "Direct, practical, no-hype. Respect the reader's intelligence. Conversational but credible.",
+    "posting_cadence": {
+      "threads": "2x per day (morning + evening)",
+      "linkedin": "1x per day (Tuesday–Thursday peaks)"
+    }
+  },
+
+  "threads": {
+    "description": "Short-form, conversational posts for Threads. Max 500 chars. Hook → insight → CTA. Optimise for saves and shares.",
+    "posts": [
+      {
+        "id": "T01",
+        "category": "fear-reframe",
+        "text": "The people getting replaced by AI aren't the ones 'doing AI stuff.'\n\nThey're the ones doing tasks AI can already do — without realising it.\n\nFirst-draft writing. Basic research. Summarising meetings. Formatting data.\n\nAudit your week. Which 20% of your tasks could an AI do in 60 seconds?\n\nThat's where the risk lives. (And where the opportunity is, if you move first.)",
+        "hook": "The people getting replaced by AI...",
+        "cta": null,
+        "best_time": "07:00–09:00"
+      },
+      {
+        "id": "T02",
+        "category": "insight",
+        "text": "Hot take: AI certifications won't save your career.\n\nHere's what will:\n\n→ 5 prompts you use every day in your actual job\n→ 1 tool you know deeply (not 10 tools you've touched once)\n→ Documented proof that AI made you faster/better at something\n\nDepth > breadth. Every time.",
+        "hook": "Hot take: AI certifications won't save your career.",
+        "cta": null,
+        "best_time": "12:00–13:00"
+      },
+      {
+        "id": "T03",
+        "category": "framework",
+        "text": "RISEN prompting framework (steal this):\n\nR — Role: 'You are a senior [X]...'\nI — Instructions: clear, specific task\nS — Steps: break it into sequence\nE — End goal: define exact output format\nN — Narrow: tone, length, what to avoid\n\nApply this to any prompt. Your AI outputs will improve immediately.\n\nSave this.",
+        "hook": "RISEN prompting framework (steal this):",
+        "cta": "Save this.",
+        "best_time": "07:00–09:00"
+      },
+      {
+        "id": "T04",
+        "category": "social-proof",
+        "text": "I asked a marketing manager what changed after she started using AI properly.\n\n'I went from spending 8 hours on content briefs to spending 45 minutes. My boss asked what I did differently. I said I found a better workflow.'\n\nShe didn't mention AI at all. That's the play.\n\nUse it. Don't perform it.",
+        "hook": "I asked a marketing manager what changed...",
+        "cta": null,
+        "best_time": "18:00–20:00"
+      },
+      {
+        "id": "T05",
+        "category": "lead-magnet",
+        "text": "I made a checklist for everyone asking 'where do I even start with AI?'\n\n27 actions to:\n✓ Audit which parts of your job AI can replace\n✓ Build your first 5 power prompts\n✓ Position yourself as the person who USES AI tools\n\nFree. Link in bio. No spam, just the checklist.",
+        "hook": "I made a checklist for everyone asking...",
+        "cta": "Free. Link in bio.",
+        "best_time": "07:00–09:00"
+      },
+      {
+        "id": "T06",
+        "category": "insight",
+        "text": "The real AI skill gap isn't technical.\n\nIt's knowing what to ask for.\n\nAI tools are powerful. But most people use them like a search engine — asking vague questions and getting vague answers.\n\nPrompt engineering is just learning to communicate precisely. That's it.\n\nYou already have the domain expertise. Add clear communication = output that actually works.",
+        "hook": "The real AI skill gap isn't technical.",
+        "cta": null,
+        "best_time": "12:00–13:00"
+      },
+      {
+        "id": "T07",
+        "category": "objection-handle",
+        "text": "'I'm not technical enough for AI tools.'\n\nI hear this constantly.\n\nChatGPT doesn't require code. Claude doesn't require engineering. Gemini works through a chat interface.\n\nYou need: a browser, a free account, and 20 minutes.\n\nThe barrier isn't technical ability. It's the story you're telling yourself.",
+        "hook": "'I'm not technical enough for AI tools.'",
+        "cta": null,
+        "best_time": "18:00–20:00"
+      },
+      {
+        "id": "T08",
+        "category": "data-point",
+        "text": "Study: Consultants who used AI performed at the level of consultants in the top 4% of their field.\n\n(Harvard Business School, 2024)\n\nThis wasn't about replacing consultants. It was about multiplying their output.\n\nAI is the most equalising tool in the history of professional work. The floor just got raised.",
+        "hook": "Study: Consultants who used AI performed at the level of...",
+        "cta": null,
+        "best_time": "07:00–09:00"
+      },
+      {
+        "id": "T09",
+        "category": "industry-specific",
+        "text": "If you're in marketing, here's what AI can do for you this week:\n\n→ First drafts of blog posts in 8 minutes\n→ 10 ad headline variations in 90 seconds\n→ Email sequence for a new product launch in 20 minutes\n→ Competitive analysis summary from a 40-page report\n\nThe question isn't whether to use it. It's how fast you can learn it.",
+        "hook": "If you're in marketing...",
+        "cta": null,
+        "best_time": "12:00–13:00"
+      },
+      {
+        "id": "T10",
+        "category": "mindset",
+        "text": "AI doesn't replace experts. It replaces non-experts.\n\nIf you have no real expertise, AI threatens you directly.\n\nIf you have deep expertise, AI multiplies you.\n\nThe best AI outputs come from people who can judge whether the output is good.\n\nDeepen your domain knowledge. Then add AI as a layer on top.",
+        "hook": "AI doesn't replace experts. It replaces non-experts.",
+        "cta": null,
+        "best_time": "18:00–20:00"
+      },
+      {
+        "id": "T11",
+        "category": "product-soft-sell",
+        "text": "I wrote a 40-page guide on AI strategy for professionals.\n\nNot 'how to use ChatGPT.' That's one chapter.\n\nActual strategy:\n→ Which jobs/tasks are at risk and why\n→ RISEN framework for professional prompts\n→ Industry scenarios: tech, marketing, healthcare, finance, education\n→ 5 AI roles that didn't exist 3 years ago\n→ 30-day plan to go from confused to competent\n\n$37. Link in bio.",
+        "hook": "I wrote a 40-page guide on AI strategy for professionals.",
+        "cta": "$37. Link in bio.",
+        "best_time": "07:00–09:00"
+      },
+      {
+        "id": "T12",
+        "category": "quick-tip",
+        "text": "AI tip that actually works:\n\nBefore you write ANYTHING first-draft at work, spend 3 minutes writing a prompt instead.\n\nDescribe what you need in detail. Include:\n• Your role\n• The audience\n• The tone\n• The format\n• Any constraints\n\nThen iterate from the AI output rather than starting from zero.\n\nYou'll save 40–60% of the time. Every time.",
+        "hook": "AI tip that actually works:",
+        "cta": null,
+        "best_time": "12:00–13:00"
+      },
+      {
+        "id": "T13",
+        "category": "fear-reframe",
+        "text": "Nobody woke up in 1995 and said 'I need to learn email or I'll lose my job.'\n\nThey just... learned email. Because it made work easier.\n\nAI is the same transition. The people who lose jobs won't be replaced by AI — they'll be replaced by colleagues who use AI and can do twice as much.\n\nAdoption is the strategy.",
+        "hook": "Nobody woke up in 1995 and said...",
+        "cta": null,
+        "best_time": "07:00–09:00"
+      },
+      {
+        "id": "T14",
+        "category": "engagement",
+        "text": "Which of these sounds most like you right now?\n\nA) I use AI tools daily and it's changed how I work\nB) I've tried AI tools a few times but don't use them consistently\nC) I haven't really started yet and I feel behind\nD) I'm skeptical and not sure AI is as big a deal as people say\n\nHonest answers only. (Mine was C, about 18 months ago.)",
+        "hook": "Which of these sounds most like you right now?",
+        "cta": "Honest answers only.",
+        "best_time": "18:00–20:00"
+      },
+      {
+        "id": "T15",
+        "category": "insight",
+        "text": "The worst thing about most AI career advice:\n\nIt's written by people who sell AI education, not people who use AI in real jobs.\n\nThe advice sounds credible. But it's disconnected from what actually matters at 9am on a Tuesday when you have a deliverable due.\n\nPractical > inspirational. Every time.",
+        "hook": "The worst thing about most AI career advice:",
+        "cta": null,
+        "best_time": "12:00–13:00"
+      }
+    ]
+  },
+
+  "linkedin": {
+    "description": "Professional long-form posts for LinkedIn. 150–300 words optimal. Start with a hook line that shows on preview. Use line breaks for readability. End with a question or CTA.",
+    "posts": [
+      {
+        "id": "LI01",
+        "category": "insight-leadership",
+        "title": "The 3 AI Skills Hiring Managers Are Actually Looking For",
+        "text": "I've spoken with hiring managers across marketing, finance, and operations over the past 6 months.\n\nWhen I ask them what AI skills they're actually looking for, the answer is almost never 'can you use ChatGPT.'\n\nHere's what they actually want:\n\n1. Judgment\nCan you evaluate AI output? Can you tell when it's wrong, biased, or needs refinement? This requires deep domain expertise, not just tool knowledge.\n\n2. Workflow integration\nNot 'I've used AI' — 'I redesigned my workflow to incorporate AI and reduced X from 8 hours to 2 hours.' Specifics matter.\n\n3. Communication\nCan you explain AI value to stakeholders who are skeptical? Can you advocate for AI adoption without sounding like a tech evangelist?\n\nNone of these are technical skills. All of them require fundamentals most experienced professionals already have.\n\nThe opportunity isn't learning AI. It's applying what you already know — with AI as the accelerant.\n\nWhat AI skill do you think is most underrated right now?",
+        "hook": "I've spoken with hiring managers across marketing, finance, and operations over the past 6 months.",
+        "cta": "What AI skill do you think is most underrated right now?",
+        "best_time": "Tuesday 08:00–10:00",
+        "format_notes": "Personal insight format. No promotional content."
+      },
+      {
+        "id": "LI02",
+        "category": "framework",
+        "title": "How I Went From AI-Anxious to AI-Fluent in 30 Days",
+        "text": "12 months ago, I was anxious about AI. I didn't know where to start and everything I read felt like either doom or empty hype.\n\nHere's the 30-day framework that changed things:\n\n📍 Week 1: Audit\nI listed every recurring task in my week and sorted them into three buckets:\n• High AI exposure (AI could do this)\n• Medium exposure (AI could assist)\n• Low exposure (requires my human judgment)\n\nThis alone was clarifying. The risks and opportunities became concrete.\n\n📍 Week 2: Build\nI picked ONE tool (Claude) and used it every day for my top 3 high-exposure tasks. I wrote prompts. I failed. I refined. I saved the ones that worked.\n\n📍 Week 3: Systemise\nI built a personal prompt library — a simple document with 10 prompts I use weekly. Each one tested, refined, and named.\n\n📍 Week 4: Document\nI tracked my time savings and created a one-page summary of outcomes: what changed, how much faster I was, what I was now able to do that I couldn't before.\n\nThat last step is what most people skip — and it's the one that creates career leverage.\n\nWhich week sounds hardest for you right now?",
+        "hook": "12 months ago, I was anxious about AI.",
+        "cta": "Which week sounds hardest for you right now?",
+        "best_time": "Wednesday 08:00–10:00",
+        "format_notes": "Personal journey format. Credibility through vulnerability."
+      },
+      {
+        "id": "LI03",
+        "category": "industry-insight",
+        "title": "What AI Actually Does to Knowledge Work (The Data Is Surprising)",
+        "text": "The narrative around AI and jobs is dominated by two camps: extreme fear or dismissive optimism.\n\nThe actual data sits somewhere more interesting.\n\nMIT economists studied what happened when customer support workers were given AI tools:\n→ Productivity increased 14% on average\n→ New workers saw a 34% productivity boost\n→ Expert workers saw minimal change\n\nHarvard studied consultants:\n→ Those with AI access performed at the level of the top 4% of consultants WITHOUT AI\n→ The largest gains came in areas OUTSIDE the worker's skill area\n\nThe pattern: AI disproportionately elevates workers at the lower end of the skill spectrum — compressing the gap between junior and senior.\n\nThe implication: if you're experienced, your moat just got narrower. If you're junior, your floor just got raised.\n\nBoth groups need the same response: use AI to extend what you're already good at, rather than using it as a replacement for developing skill.\n\nWhat does the data you've seen tell you about AI's impact in your field?",
+        "hook": "The narrative around AI and jobs is dominated by two camps: extreme fear or dismissive optimism.",
+        "cta": "What does the data you've seen tell you?",
+        "best_time": "Thursday 08:00–10:00",
+        "format_notes": "Data-driven credibility post. Reference real studies."
+      },
+      {
+        "id": "LI04",
+        "category": "product-soft-sell",
+        "title": "I Wrote a Guide on AI Career Strategy. Here's What Surprised Me Most.",
+        "text": "When I started writing The AI Blueprint, I expected the research to confirm what I assumed: that AI is a threat to most jobs and the solution is learning technical skills.\n\nThat's not what I found.\n\nThe biggest surprise: the professionals winning with AI aren't the most technical ones. They're the ones with the deepest domain expertise who added AI as a tool.\n\nThe 40-year-old operations manager who knows her process inside-out is outperforming the 26-year-old AI enthusiast who treats every problem as a prompt.\n\nBecause AI can generate ideas, first drafts, and analysis — but it can't replace the judgment to know which ideas are worth pursuing.\n\nThe guide I wrote reflects this. It's not a ChatGPT tutorial. It's a strategy document for professionals who want to think clearly about their AI-era career — covering:\n\n→ Which roles and tasks face real disruption (and which don't)\n→ The RISEN prompt framework for professional contexts\n→ Industry scenarios across 5 sectors\n→ A 30-day implementation plan\n→ The 5 AI-adjacent roles paying highest in 2025\n\nIf you'd like to read it: lumenora.gumroad.com/l/hltwgb — $37, 7-day refund.\n\nAnd if you're not ready to buy: there's a free checklist in the comments.",
+        "hook": "When I started writing The AI Blueprint, I expected the research to confirm what I assumed.",
+        "cta": "Free checklist in the comments.",
+        "best_time": "Tuesday 12:00–14:00",
+        "format_notes": "Soft sell. Lead with insight, not the product. Include social proof."
+      },
+      {
+        "id": "LI05",
+        "category": "engagement",
+        "title": "The Most Honest AI Career Question",
+        "text": "I want to ask a genuinely honest question, not a rhetorical one.\n\nIf you look at the next 3 years of your career:\n\n→ What specific parts of your job are most vulnerable to AI automation?\n→ What would you need to learn or change to stay ahead?\n→ What's actually stopping you from doing that now?\n\nI've been thinking about this a lot lately. The professionals I see navigating this well share one trait: they've answered these questions honestly, without defensiveness.\n\nThe ones struggling tend to be deflecting — either minimising the disruption ('AI isn't as good as people say') or catastrophising in ways that prevent action ('there's no point, jobs will disappear anyway').\n\nNone of that is useful.\n\nHonest audit → specific plan → consistent action. That's the formula.\n\nI'd love to know: what's your honest answer to question 3?",
+        "hook": "I want to ask a genuinely honest question, not a rhetorical one.",
+        "cta": "What's your honest answer to question 3?",
+        "best_time": "Thursday 12:00–14:00",
+        "format_notes": "High engagement format. Vulnerable + direct."
+      }
+    ]
+  },
+
+  "content_calendar": {
+    "week_1": {
+      "monday": { "platform": "threads", "post_id": "T01", "theme": "Problem awareness" },
+      "tuesday": { "platform": "linkedin", "post_id": "LI01", "theme": "Skills insight" },
+      "wednesday": { "platform": "threads", "post_id": "T03", "theme": "Framework — RISEN" },
+      "thursday": { "platform": "linkedin", "post_id": "LI03", "theme": "Data/research" },
+      "friday": { "platform": "threads", "post_id": "T05", "theme": "Lead magnet push" }
+    },
+    "week_2": {
+      "monday": { "platform": "threads", "post_id": "T08", "theme": "Data point" },
+      "tuesday": { "platform": "linkedin", "post_id": "LI02", "theme": "Personal framework" },
+      "wednesday": { "platform": "threads", "post_id": "T12", "theme": "Actionable tip" },
+      "thursday": { "platform": "linkedin", "post_id": "LI05", "theme": "Engagement question" },
+      "friday": { "platform": "threads", "post_id": "T11", "theme": "Product mention" }
+    },
+    "week_3": {
+      "monday": { "platform": "threads", "post_id": "T09", "theme": "Industry-specific" },
+      "tuesday": { "platform": "linkedin", "post_id": "LI04", "theme": "Soft product sell" },
+      "wednesday": { "platform": "threads", "post_id": "T06", "theme": "Skill insight" },
+      "thursday": { "platform": "threads", "post_id": "T14", "theme": "Poll/engagement" },
+      "friday": { "platform": "threads", "post_id": "T13", "theme": "Fear reframe" }
+    },
+    "week_4": {
+      "monday": { "platform": "threads", "post_id": "T02", "theme": "Insight" },
+      "tuesday": { "platform": "linkedin", "post_id": "LI01", "theme": "Recycle top performer" },
+      "wednesday": { "platform": "threads", "post_id": "T07", "theme": "Objection handle" },
+      "thursday": { "platform": "threads", "post_id": "T10", "theme": "Mindset" },
+      "friday": { "platform": "threads", "post_id": "T04", "theme": "Social proof" }
+    }
+  }
+}

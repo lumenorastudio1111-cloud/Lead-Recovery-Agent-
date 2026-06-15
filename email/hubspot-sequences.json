@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "platform": "HubSpot",
+    "brand": "Lumenora",
+    "product_tier_1": { "name": "The AI Blueprint", "price": 37, "url": "https://lumenora.gumroad.com/l/hltwgb" },
+    "product_tier_2": { "name": "The AI Blueprint: Pro Pack", "price": 197, "url": "https://lumenora.gumroad.com/l/ai-blueprint-pro" },
+    "consulting": { "name": "AI Strategy Session", "price_range": "$1,500–$15,000", "booking_url": "https://calendly.com/lumenora/ai-strategy" },
+    "from_name": "Lumenora",
+    "from_email": "hello@lumenora.com",
+    "reply_to": "hello@lumenora.com"
+  },
+
+  "sequences": {
+
+    "SEQ_01_LEAD_MAGNET_WELCOME": {
+      "name": "Lead Magnet Welcome + Nurture",
+      "trigger": "Contact submits lead magnet opt-in form",
+      "goal": "Deliver value → build trust → convert to $37 Blueprint purchase",
+      "emails": [
+        {
+          "position": 1,
+          "delay": "immediate",
+          "subject": "Your AI Career Survival Checklist is here 📋",
+          "preview_text": "27 actions — pick one to do today.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Your AI Career Survival Checklist is attached — 27 actions to protect your income and get ahead in the AI era.",
+            "body_html": "<p>Quick note before you dive in:</p><p>Most people download checklists, read them once, and do nothing. The 1-in-10 who actually act on it within the first 24 hours see the biggest results.</p><p>So here's what I want you to do right now:</p><ol><li><strong>Open the checklist</strong> (it's attached or linked below)</li><li><strong>Find the one action</strong> that feels most relevant to your current situation</li><li><strong>Schedule 20 minutes tomorrow morning</strong> to do that one thing</li></ol><p>That's it. One action. Tomorrow morning. That's the difference between a checklist and a result.</p>",
+            "cta": { "text": "Download Your Checklist", "url": "{{CHECKLIST_DOWNLOAD_URL}}" },
+            "ps": "P.S. — Tomorrow I'll send you the #1 mistake professionals make when they first try AI tools at work. It's not what you'd expect.",
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 2,
+          "delay": "1 day",
+          "subject": "The #1 AI mistake professionals make (and how to avoid it)",
+          "preview_text": "It's not using the wrong tool. It's using it like a search engine.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "I promised you the most common AI mistake. Here it is:",
+            "body_html": "<p><strong>Using AI like Google.</strong></p><p>Most people open ChatGPT or Claude and type vague questions — just like they'd search Google. Then they get generic, mediocre responses and conclude 'AI isn't that impressive.'</p><p>The problem isn't the tool. It's the approach.</p><p>AI responds to specificity. The more context, constraints, and clarity you give it — the better the output.</p><p>Compare these two prompts:</p><ul><li>❌ Weak: 'Write a marketing email'</li><li>✅ Strong: 'You are a senior B2B email copywriter. Write a 200-word re-engagement email for SaaS customers who haven't logged in for 30 days. Tone: warm but direct. Include one specific value reminder (reporting feature). CTA: book a 15-min product walkthrough.'</li></ul><p>Same tool. Completely different output.</p><p>The framework I use to write strong prompts every time is called <strong>RISEN</strong>. I'll share the full breakdown tomorrow.</p>",
+            "cta": null,
+            "ps": null,
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 3,
+          "delay": "2 days",
+          "subject": "The RISEN framework (copy-paste this)",
+          "preview_text": "5 letters that will transform your AI outputs.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Here's the RISEN framework I mentioned yesterday.",
+            "body_html": "<p>Apply this structure to any AI prompt:</p><ul><li><strong>R — Role:</strong> 'You are a [specific role] with expertise in [domain]...'</li><li><strong>I — Instructions:</strong> Tell it exactly what to do. Be specific. Include context about the audience and purpose.</li><li><strong>S — Steps:</strong> Break complex tasks into numbered steps. AI follows sequences more reliably than open-ended instructions.</li><li><strong>E — End goal:</strong> Define the output format. 'Produce a bullet-point summary', 'Write a 3-paragraph email', 'Create a comparison table'.</li><li><strong>N — Narrow:</strong> Add constraints. Tone (professional/casual), length (max 200 words), what to avoid ('don't use jargon', 'avoid passive voice').</li></ul><p>Practice this once and you'll never go back to vague prompts.</p><p>In The AI Blueprint, I've applied this framework to 15 pre-built prompts across 5 industries — so you can copy-paste them directly into your work. No framework needed once you have the library.</p>",
+            "cta": { "text": "Get The AI Blueprint — $37 →", "url": "https://lumenora.gumroad.com/l/hltwgb" },
+            "ps": "P.S. — The guide is $37 with a 7-day money-back guarantee. If you don't find value, email me and I'll refund you immediately.",
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 4,
+          "delay": "4 days",
+          "subject": "What your job looks like in 3 years (honest take)",
+          "preview_text": "Not doom. Not hype. Just the honest forecast.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "I want to share an honest perspective on AI and careers — not the version designed to scare you or reassure you.",
+            "body_html": "<p>Here's what the research actually shows:</p><p><strong>Tasks at highest risk:</strong> first-draft writing, basic research, data formatting, meeting summaries, templated communication, entry-level analysis.</p><p><strong>Tasks most protected:</strong> strategic judgment, creative direction, complex stakeholder management, work requiring institutional knowledge and relationships.</p><p>The pattern: AI excels at producing <em>competent averages</em>. It struggles with <em>original excellence</em> that requires human judgment, expertise, and context.</p><p>Which means the professionals most at risk are those doing primarily average, repeatable cognitive work — and doing nothing to move up the value chain.</p><p>The 30-day plan in The AI Blueprint is specifically designed to help you audit your role, identify your vulnerable tasks, and create a concrete path to higher-value work — with AI doing the heavy lifting on the lower-value stuff.</p><p>Many of the professionals who've read it describe the same reaction: relief. Not because the situation isn't real — but because a clear plan makes it feel manageable.</p>",
+            "cta": { "text": "Read The AI Blueprint →", "url": "https://lumenora.gumroad.com/l/hltwgb" },
+            "ps": null,
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 5,
+          "delay": "7 days",
+          "subject": "Last nudge on this (promise)",
+          "preview_text": "I won't keep emailing about the Blueprint after this.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "I'm going to send one more email about The AI Blueprint, then move on — I promise.",
+            "body_html": "<p>Here's what's inside:</p><ul><li>40+ pages of no-fluff AI career strategy</li><li>The RISEN prompt framework (plus 15 ready-made prompts)</li><li>20+ industry scenarios across Tech, Marketing, Healthcare, Finance, Education</li><li>Salary data for 5 emerging AI roles</li><li>A week-by-week 30-day action plan</li></ul><p>Price: $37. One-time. Lifetime access. 7-day refund if you're not happy.</p><p>If this isn't the right time, that's okay — the checklist you downloaded will still be useful.</p><p>But if you're serious about making AI work for your career rather than against it, this is the guide I'd start with.</p>",
+            "cta": { "text": "Get The AI Blueprint — $37", "url": "https://lumenora.gumroad.com/l/hltwgb" },
+            "ps": "P.S. — After this email, I'll shift to sending useful AI career content every week — no hard selling. Stay subscribed for that if nothing else.",
+            "signature": "— The Lumenora Team"
+          }
+        }
+      ]
+    },
+
+    "SEQ_02_BLUEPRINT_BUYER_ONBOARD": {
+      "name": "Blueprint Buyer Onboarding + Upsell",
+      "trigger": "Contact purchases The AI Blueprint ($37)",
+      "goal": "Deliver excellent experience → drive completion → upsell to Pro Pack ($197)",
+      "emails": [
+        {
+          "position": 1,
+          "delay": "immediate",
+          "subject": "Welcome to The AI Blueprint 🎉 Here's what to do first",
+          "preview_text": "Start with Chapter 2, not Chapter 1. Here's why.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Your AI Blueprint is ready. Thank you for trusting us with this.",
+            "body_html": "<p>Before you dive in — a quick reading recommendation that most people ignore:</p><p><strong>Start with Chapter 2, not Chapter 1.</strong></p><p>Chapter 1 is the context-setting (useful, but not urgent). Chapter 2 is where the practical strategy starts — specifically, the role audit that will immediately tell you where your biggest opportunities and risks are.</p><p>Once you've done the audit in Chapter 2, go back to Chapter 1 and everything will make more sense.</p><p>Then: Chapter 3 (RISEN prompts) + Chapter 4 (your industry scenarios). That's the core.</p><p>I'll check in on Day 3 with a prompt exercise to get you started.</p>",
+            "cta": { "text": "Access Your Blueprint →", "url": "{{GUMROAD_DOWNLOAD_URL}}" },
+            "ps": "P.S. — Reply to this email any time with questions. I read every reply.",
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 2,
+          "delay": "3 days",
+          "subject": "Quick question about your AI Blueprint progress",
+          "preview_text": "Have you done the role audit yet?",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Hope you've had a chance to start The AI Blueprint. Quick question:",
+            "body_html": "<p><strong>Have you completed the role audit from Chapter 2?</strong></p><p>It takes about 15 minutes and it's the single most clarifying thing most readers do. Once you have your audit done, the rest of the guide clicks into place.</p><p>If you haven't started yet — that's okay. Here's a shortcut:</p><p>Open a blank doc and write down every task you do in a typical week. Put an 'H' next to tasks AI could do, 'M' next to tasks AI could assist with, and 'L' next to tasks that require uniquely human judgment.</p><p>That's the core of the audit. The guide adds structure and industry-specific nuance on top of it.</p><p>Reply to this email and let me know: what's in your 'H' column?</p>",
+            "cta": null,
+            "ps": null,
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 3,
+          "delay": "7 days",
+          "subject": "How are you getting on with the Blueprint?",
+          "preview_text": "A small group of readers are going deeper — wanted to mention it.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "One week since you picked up The AI Blueprint — hope it's been useful.",
+            "body_html": "<p>I wanted to let you know about something a small group of Blueprint readers are doing.</p><p>They decided they wanted to go beyond the strategy — to actually <em>implement</em> the system with:</p><ul><li>50+ advanced prompts specific to their role</li><li>Video walkthroughs of every concept in the Blueprint</li><li>Role-specific AI playbooks (6 industries)</li><li>An ROI calculator to track and present their AI gains</li><li>A 90-day implementation roadmap</li><li>A live 30-minute 1:1 call to build their personal AI strategy</li></ul><p>That's The AI Blueprint: Pro Pack. It's $197 (one-time).</p><p>I'm not going to push this on you — the Blueprint guide is complete on its own. But if you're the type who learns by <em>doing</em> rather than just reading, the Pro Pack might be worth a look.</p>",
+            "cta": { "text": "See The Pro Pack →", "url": "/upsell.html" },
+            "ps": "P.S. — There's a 14-day money-back guarantee on the Pro Pack too.",
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 4,
+          "delay": "14 days",
+          "subject": "Did you try the RISEN framework?",
+          "preview_text": "I'd love to hear how it's going.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Two weeks in — how's the AI Blueprint treating you?",
+            "body_html": "<p>Specifically: have you had a chance to try the RISEN prompt framework in Chapter 3?</p><p>Most readers report the biggest 'aha moment' comes when they first apply RISEN to a real work task. The difference in output quality is usually immediate.</p><p>If you want to share your experience — what you tried, what worked, what didn't — just reply to this email. I genuinely read these and they help me improve the guide.</p><p>Also: if you'd like a personal recommendation on how to apply the framework to your specific role or industry, the Pro Pack includes a 30-minute 1:1 call for exactly this purpose.</p>",
+            "cta": { "text": "Upgrade to Pro Pack", "url": "/upsell.html" },
+            "ps": null,
+            "signature": "— The Lumenora Team"
+          }
+        }
+      ]
+    },
+
+    "SEQ_03_PRO_PACK_BUYER": {
+      "name": "Pro Pack Buyer Onboarding + Consulting Inquiry",
+      "trigger": "Contact purchases The AI Blueprint Pro Pack ($197)",
+      "goal": "High-touch onboarding → call booking → consulting inquiry for $1,500–$15,000 engagement",
+      "emails": [
+        {
+          "position": 1,
+          "delay": "immediate",
+          "subject": "Your Pro Pack access + how to book your strategy call",
+          "preview_text": "Book your 30-min call while you have availability.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Welcome to the Pro Pack — you've made a great decision.",
+            "body_html": "<p>Here's everything you have access to:</p><ol><li><strong>50+ Prompt Library</strong> — access link below</li><li><strong>6 Role-Specific Playbooks</strong> — PDFs in the same folder</li><li><strong>Video Walkthrough Series</strong> — 12 videos, access link below</li><li><strong>AI ROI Calculator</strong> — Google Sheets link, make a copy to your Drive</li><li><strong>90-Day Roadmap</strong> — PDF download below</li><li><strong>30-Minute Strategy Call</strong> — book using the Calendly link below</li></ol><p><strong>My strong recommendation:</strong> Book your strategy call <em>before</em> you dive into the materials. You'll get more from the call when you come with specific questions from your reading.</p>",
+            "cta": { "text": "Book Your Strategy Call →", "url": "https://calendly.com/lumenora/ai-strategy" },
+            "ps": "P.S. — If you have any access issues, reply to this email immediately. I'll fix it within the hour.",
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 2,
+          "delay": "3 days",
+          "subject": "Before your strategy call — 3 questions to prepare",
+          "preview_text": "These will make our 30 minutes 3x more valuable.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "Your strategy call is coming up — here are 3 questions to think through before we talk.",
+            "body_html": "<ol><li><strong>What's your role and what does a typical week look like?</strong> Be specific — the more detail you give, the more specific my recommendations can be.</li><li><strong>What's one result you want to be able to show your organisation in 90 days?</strong> Time saved? Output increased? New capability? Revenue tied to AI?</li><li><strong>What's the biggest barrier you're facing right now?</strong> Time to learn? Stakeholder buy-in? Knowing where to start? Team adoption?</li></ol><p>You don't need perfect answers — these questions just help us use our 30 minutes well.</p><p>If you haven't booked yet: <a href='https://calendly.com/lumenora/ai-strategy'>book here</a>. Slots fill up, so don't wait.</p>",
+            "cta": { "text": "Book Your Call →", "url": "https://calendly.com/lumenora/ai-strategy" },
+            "ps": null,
+            "signature": "— The Lumenora Team"
+          }
+        },
+        {
+          "position": 3,
+          "delay": "10 days",
+          "subject": "Following up from your strategy call",
+          "preview_text": "Based on what we discussed, I wanted to mention something.",
+          "body": {
+            "greeting": "Hi {{contact.firstname}},",
+            "opening": "I hope your strategy call was useful. Based on what typically comes up in those conversations, I wanted to mention something.",
+            "body_html": "<p>Some Pro Pack clients — particularly those in leadership roles or with organisation-wide AI mandates — find that 30 minutes isn't enough to cover everything they need.</p><p>For those who want more depth, we offer extended AI strategy engagements:</p><ul><li><strong>AI Readiness Assessment</strong> — comprehensive audit of your team's AI opportunity and risk landscape ($1,500)</li><li><strong>AI Implementation Roadmap</strong> — 90-day plan with tool selection, workflow redesign, and change management strategy ($4,500)</li><li><strong>Ongoing AI Advisory</strong> — monthly strategy sessions + unlimited async support ($2,500/month)</li><li><strong>Team AI Training Workshop</strong> — half-day session to upskill an entire team ($7,500–$15,000)</li></ul><p>If any of these match what you're trying to accomplish, reply to this email with 'tell me more' and I'll send full details.</p><p>No pressure — the Pro Pack is complete on its own. This is just for those who want a deeper engagement.</p>",
+            "cta": { "text": "Learn About AI Strategy Engagements →", "url": "https://calendly.com/lumenora/ai-strategy-intro" },
+            "ps": null,
+            "signature": "— The Lumenora Team"
+          }
+        }
+      ]
+    },
+
+    "SEQ_04_WEEKLY_NURTURE": {
+      "name": "Weekly Value Newsletter",
+      "trigger": "All subscribers — after welcome sequence completes",
+      "goal": "Maintain relationship. Surface as trusted authority. Drive repeat purchases and referrals.",
+      "cadence": "Weekly (Tuesday 07:00 local time)",
+      "email_structure": {
+        "subject_formula": "[Action/insight]: [specific, practical benefit]",
+        "preview_text": "One thing worth reading this week.",
+        "sections": [
+          "1 AI career insight or framework (200–300 words)",
+          "1 practical prompt or tool tip",
+          "1 link to content (blog post, resource, or case study)",
+          "Optional: soft CTA to product or lead magnet"
+        ]
+      },
+      "sample_issues": [
+        {
+          "issue": 1,
+          "subject": "The 5-minute AI audit you should do every Friday",
+          "preview_text": "Track your time savings — or lose the argument for AI adoption.",
+          "hook": "Most professionals feel AI is saving them time — but can't prove it.",
+          "insight": "Spend 5 minutes every Friday logging: which tasks used AI this week, estimated time saved, output quality improvement (1–5 rating). After 4 weeks, you have data. Data is what you bring to management when pushing for AI tool budgets or making the case for a promotion."
+        },
+        {
+          "issue": 2,
+          "subject": "What separates an AI power user from an AI dabbler",
+          "preview_text": "It's not the tool they use. It's the system.",
+          "hook": "I've observed this consistently: power users have a prompt library. Dabblers start from scratch every time.",
+          "insight": "Create a folder (Notion, Google Doc, anywhere) called 'Prompts That Work'. Every time you write a prompt that produces great output, save it. Name it by use case. After 30 days, you have a personal library that compounds. Your AI becomes faster every week — not slower."
+        }
+      ]
+    },
+
+    "SEQ_05_REENGAGEMENT": {
+      "name": "Re-engagement Sequence",
+      "trigger": "Contact has not opened any email in 60 days",
+      "goal": "Win back or clean list",
+      "emails": [
+        {
+          "position": 1,
+          "delay": "0 days",
+          "subject": "Still there? (quick question)",
+          "preview_text": "I'll only keep emailing if this is useful to you.",
+          "body_html": "<p>Hi {{contact.firstname}},</p><p>I noticed you haven't opened any of my emails in a while — completely understandable, inboxes are brutal.</p><p>I just have one question: is AI career strategy still something you want to hear about?</p><p>If yes: <a href='{{CLICK_URL_STAY}}'>click here to stay subscribed</a> — I'll keep sending weekly insights on navigating the AI era.</p><p>If no: <a href='{{UNSUBSCRIBE_URL}}'>click here to unsubscribe</a> — no hard feelings, genuinely.</p><p>If you're still interested but haven't had the chance to pick up The AI Blueprint yet, here's the link: <a href='https://lumenora.gumroad.com/l/hltwgb'>lumenora.gumroad.com/l/hltwgb</a> — $37, 7-day refund.</p>",
+          "cta": null,
+          "ps": null,
+          "signature": "— The Lumenora Team"
+        }
+      ]
+    }
+  },
+
+  "hubspot_setup": {
+    "properties_to_track": [
+      { "name": "lifecycle_stage", "values": ["subscriber", "lead", "customer_tier1", "customer_tier2", "consulting_prospect"] },
+      { "name": "lead_source", "values": ["lead_magnet", "blog", "pinterest", "threads", "linkedin", "direct"] },
+      { "name": "product_purchased", "values": ["none", "blueprint_37", "pro_pack_197"] },
+      { "name": "email_sequence_stage", "values": ["welcome", "nurture", "buyer_onboard", "pro_onboard", "weekly", "reengagement"] }
+    ],
+    "lists": [
+      { "name": "All Subscribers", "criteria": "Opted in via any form" },
+      { "name": "Blueprint Buyers", "criteria": "product_purchased = blueprint_37" },
+      { "name": "Pro Pack Buyers", "criteria": "product_purchased = pro_pack_197" },
+      { "name": "Consulting Prospects", "criteria": "Pro Pack buyer AND clicked consulting CTA" },
+      { "name": "Re-engagement Targets", "criteria": "No email opens in 60 days AND not a buyer" }
+    ],
+    "automations": [
+      { "name": "Lead Magnet → Welcome Sequence", "trigger": "Form submission: lead-magnet opt-in", "action": "Enrol in SEQ_01" },
+      { "name": "Blueprint Purchase → Buyer Sequence", "trigger": "Deal closed: Blueprint $37", "action": "Enrol in SEQ_02, remove from SEQ_01" },
+      { "name": "Pro Pack Purchase → Pro Sequence", "trigger": "Deal closed: Pro Pack $197", "action": "Enrol in SEQ_03, remove from SEQ_02" },
+      { "name": "60-Day Re-engagement", "trigger": "60 days since last email open (non-buyer)", "action": "Enrol in SEQ_05" },
+      { "name": "Welcome to Weekly", "trigger": "SEQ_01 completes (no purchase)", "action": "Enrol in SEQ_04 weekly newsletter" }
+    ]
+  }
+}

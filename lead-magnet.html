@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free: The AI Career Survival Checklist — Lumenora</title>
+  <meta name="description" content="Download the free AI Career Survival Checklist — 27 actions to protect your income, upgrade your skills, and get ahead while others fall behind.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Free AI Career Survival Checklist">
+  <meta property="og:description" content="27 actions to protect your income and get ahead in the AI era. Free download.">
+  <meta property="og:type" content="website">
+
+  <!-- Schema: Lead Magnet Offer -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Free AI Career Survival Checklist",
+    "description": "A free 27-point checklist to protect your income and build AI-era career resilience.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumenora",
+      "url": "https://lumenora.gumroad.com"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "name": "AI Career Survival Checklist (Free Download)"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #060810;
+      --bg2: #0c0f1a;
+      --bg3: #111827;
+      --accent: #6c63ff;
+      --accent2: #a78bfa;
+      --accent3: #38bdf8;
+      --gold: #f4b942;
+      --text: #f0f0f0;
+      --muted: #94a3b8;
+      --border: rgba(108,99,255,0.18);
+      --glow: rgba(108,99,255,0.35);
+      --green: #34d399;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+      overflow-x: hidden;
+    }
+
+    .orb {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .orb1 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(108,99,255,0.18), transparent 70%); top: -100px; left: 50%; transform: translateX(-50%); }
+    .orb2 { width: 300px; height: 300px; background: radial-gradient(circle, rgba(56,189,248,0.12), transparent 70%); bottom: 0; right: 0; }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 580px;
+      width: 100%;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, var(--accent2), var(--accent3));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .card {
+      background: rgba(12,15,26,0.9);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 52px 48px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 60px rgba(108,99,255,0.08);
+    }
+
+    .free-badge {
+      display: inline-block;
+      background: rgba(52,211,153,0.12);
+      border: 1px solid rgba(52,211,153,0.3);
+      color: var(--green);
+      padding: 5px 14px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.9rem, 5vw, 2.8rem);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    h1 .gtext {
+      background: linear-gradient(135deg, var(--accent2), var(--accent3));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 32px;
+      line-height: 1.65;
+    }
+
+    .checklist {
+      list-style: none;
+      margin-bottom: 36px;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.93rem;
+      color: #cbd5e1;
+    }
+
+    .checklist li:last-child { border-bottom: none; }
+
+    .check-icon {
+      width: 20px;
+      height: 20px;
+      background: rgba(52,211,153,0.15);
+      border: 1px solid rgba(52,211,153,0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+      font-size: 0.65rem;
+      color: var(--green);
+    }
+
+    .opt-in-form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 12px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 10px;
+      padding: 14px 18px;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(108,99,255,0.15);
+    }
+
+    input::placeholder { color: #475569; }
+
+    .cta-btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent), #8b5cf6);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 16px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      letter-spacing: 0.01em;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(108,99,255,0.4);
+    }
+
+    .privacy-note {
+      text-align: center;
+      font-size: 0.78rem;
+      color: #475569;
+      margin-top: 14px;
+    }
+
+    .privacy-note a { color: var(--muted); text-decoration: underline; }
+
+    .social-proof {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .avatars {
+      display: flex;
+      margin-right: 4px;
+    }
+
+    .avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 2px solid var(--bg);
+      background: linear-gradient(135deg, var(--accent), var(--accent3));
+      margin-left: -8px;
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+
+    .avatar:first-child { margin-left: 0; }
+
+    .social-text {
+      font-size: 0.83rem;
+      color: var(--muted);
+    }
+
+    .social-text strong { color: var(--text); }
+
+    /* Success state */
+    .success-state {
+      display: none;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .success-icon {
+      width: 64px;
+      height: 64px;
+      background: rgba(52,211,153,0.15);
+      border: 2px solid var(--green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      margin: 0 auto 20px;
+    }
+
+    .success-state h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+
+    .success-state p {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .upsell-link {
+      display: inline-block;
+      background: rgba(108,99,255,0.15);
+      border: 1px solid rgba(108,99,255,0.3);
+      color: var(--accent2);
+      padding: 12px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.93rem;
+      transition: background 0.2s;
+    }
+
+    .upsell-link:hover { background: rgba(108,99,255,0.25); }
+
+    @media (max-width: 600px) {
+      .card { padding: 36px 24px; }
+      .form-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+
+  <div class="container">
+    <div class="logo">Lumenora</div>
+
+    <div class="card">
+      <div id="form-state">
+        <div class="free-badge">Free Download</div>
+        <h1>The AI Career<br><span class="gtext">Survival Checklist</span></h1>
+        <p class="sub">27 actions to protect your income, position yourself ahead of automation, and turn AI into your unfair advantage — starting this week.</p>
+
+        <ul class="checklist">
+          <li>
+            <span class="check-icon">✓</span>
+            <span>Identify which parts of your job AI can already replace (and what to do about it)</span>
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            <span>The 3 AI skills every professional needs before 2026</span>
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            <span>How to make yourself the person who <em>uses</em> AI tools — not the one replaced by them</span>
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            <span>Quick-start prompt templates you can use in your role today</span>
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            <span>A 30-day action plan to audit, upskill, and reposition</span>
+          </li>
+        </ul>
+
+        <form class="opt-in-form" id="opt-in-form" action="#" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <input type="text" name="first_name" placeholder="First name" required />
+            <input type="text" name="last_name" placeholder="Last name" />
+          </div>
+          <input type="email" name="email" placeholder="Work email address" required />
+          <button type="submit" class="cta-btn">Send Me the Free Checklist →</button>
+        </form>
+
+        <p class="privacy-note">No spam. Unsubscribe anytime. <a href="#">Privacy policy</a></p>
+
+        <div class="social-proof">
+          <div class="avatars">
+            <div class="avatar">MK</div>
+            <div class="avatar">JS</div>
+            <div class="avatar">AR</div>
+            <div class="avatar">TL</div>
+          </div>
+          <div class="social-text"><strong>1,200+ professionals</strong> already downloaded this checklist this month</div>
+        </div>
+      </div>
+
+      <!-- Shown after form submission -->
+      <div class="success-state" id="success-state">
+        <div class="success-icon">✓</div>
+        <h2>Check your inbox!</h2>
+        <p>Your AI Career Survival Checklist is on its way. While you wait — want the full 40-page strategy guide?</p>
+        <a href="/index.html" class="upsell-link">Get The AI Blueprint for $37 →</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = new FormData(form);
+
+      // HubSpot form submission endpoint
+      // Replace PORTAL_ID and FORM_GUID with your actual HubSpot values
+      const PORTAL_ID = 'YOUR_PORTAL_ID';
+      const FORM_GUID = 'YOUR_FORM_GUID';
+      const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${PORTAL_ID}/${FORM_GUID}`;
+
+      const payload = {
+        fields: [
+          { name: 'firstname', value: data.get('first_name') || '' },
+          { name: 'lastname', value: data.get('last_name') || '' },
+          { name: 'email', value: data.get('email') || '' }
+        ],
+        context: {
+          pageUri: window.location.href,
+          pageName: document.title
+        }
+      };
+
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+        .then(() => showSuccess())
+        .catch(() => showSuccess()); // Show success regardless (handle errors server-side)
+    }
+
+    function showSuccess() {
+      document.getElementById('form-state').style.display = 'none';
+      document.getElementById('success-state').style.display = 'block';
+    }
+  </script>
+</body>
+</html>

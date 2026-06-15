@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "brand": "Lumenora",
+    "product": "The AI Blueprint",
+    "strategy": "Pinterest as an independent, evergreen traffic stream. Pins index in Google and surface in Pinterest search months/years after posting. Focus on educational, save-worthy content that drives traffic to both the lead magnet and the product page.",
+    "posting_frequency": "3–5 pins per day minimum (can batch-schedule via Tailwind)",
+    "pin_format": "Vertical 2:3 ratio (1000×1500px or 600×900px). Dark background with Lumenora brand colours.",
+    "tone": "Educational and empowering. No fear-mongering. Practical over inspirational."
+  },
+
+  "boards": [
+    {
+      "id": "B01",
+      "name": "AI Career Strategy",
+      "description": "Practical strategies for professionals navigating AI disruption — without the hype or panic. Real frameworks, real tools, real results.",
+      "keywords": ["AI career", "future of work", "AI strategy", "career development", "AI tools for work"],
+      "primary": true,
+      "pin_count_target": 80
+    },
+    {
+      "id": "B02",
+      "name": "AI Prompts & Tools",
+      "description": "Copy-paste AI prompts and tool guides for every professional role — marketing, finance, healthcare, tech, education.",
+      "keywords": ["ChatGPT prompts", "AI prompts for work", "prompt engineering", "AI tools", "productivity AI"],
+      "primary": true,
+      "pin_count_target": 60
+    },
+    {
+      "id": "B03",
+      "name": "Remote Work & Productivity",
+      "description": "Systems, tools, and strategies for high-performance remote work — including AI productivity shortcuts.",
+      "keywords": ["remote work tips", "productivity hacks", "work from home", "AI productivity", "deep work"],
+      "primary": false,
+      "pin_count_target": 40
+    },
+    {
+      "id": "B04",
+      "name": "Career Growth Strategies",
+      "description": "Evidence-based career growth strategies for ambitious professionals in the 2020s.",
+      "keywords": ["career growth", "professional development", "career tips", "salary increase", "promotion strategies"],
+      "primary": false,
+      "pin_count_target": 40
+    },
+    {
+      "id": "B05",
+      "name": "Digital Products & Online Business",
+      "description": "Digital products, online courses, and guides for building income beyond the 9–5.",
+      "keywords": ["digital products", "passive income", "online business", "side hustle", "digital guides"],
+      "primary": false,
+      "pin_count_target": 30
+    }
+  ],
+
+  "pin_templates": [
+    {
+      "id": "PT01",
+      "name": "Stat Pin",
+      "format": "Large number + context + brand name",
+      "example": {
+        "headline": "40% more productive",
+        "subtext": "That's the average gain for professionals who use AI in their workflow",
+        "cta": "Get the free AI career checklist →",
+        "board": "B01"
+      },
+      "use_case": "High share potential. Use verified stats only.",
+      "background": "Dark gradient (#060810 → #0c0f1a) with purple glow accent"
+    },
+    {
+      "id": "PT02",
+      "name": "List Pin",
+      "format": "Numbered list with headline",
+      "example": {
+        "headline": "5 AI Skills Every Professional Needs in 2025",
+        "items": [
+          "Prompt engineering (your role-specific)",
+          "AI output evaluation (judgment over speed)",
+          "Workflow mapping for automation",
+          "AI ROI documentation",
+          "Stakeholder communication about AI"
+        ],
+        "cta": "Save for later →",
+        "board": "B02"
+      },
+      "use_case": "High save rate. Educational + skimmable.",
+      "background": "Dark with numbered cards in accent colour"
+    },
+    {
+      "id": "PT03",
+      "name": "Quote Pin",
+      "format": "Pull quote with attribution + visual weight",
+      "example": {
+        "quote": "AI won't take your job. Someone using AI better than you will.",
+        "attribution": "— The AI Blueprint, Lumenora",
+        "board": "B01"
+      },
+      "use_case": "Share and repin trigger. Keep quotes punchy and true.",
+      "background": "Minimal dark with large quote typography"
+    },
+    {
+      "id": "PT04",
+      "name": "Before/After Pin",
+      "format": "Contrast of old vs. AI-assisted workflow",
+      "example": {
+        "headline": "Writing a content brief:",
+        "before": "❌ Before AI: 6 hours, rough draft, 2 revision cycles",
+        "after": "✓ With AI: 45 minutes, polished brief, ready to approve",
+        "cta": "Download the free AI career checklist",
+        "board": "B02"
+      },
+      "use_case": "High engagement. Makes abstract benefits concrete.",
+      "background": "Split panel with red/green or dark/light contrast"
+    },
+    {
+      "id": "PT05",
+      "name": "Framework Pin",
+      "format": "Named framework with visual breakdown",
+      "example": {
+        "headline": "The RISEN Prompt Framework",
+        "steps": [
+          "R — Role: 'You are a senior [X]...'",
+          "I — Instructions: clear, specific task",
+          "S — Steps: sequential breakdown",
+          "E — End goal: exact output format",
+          "N — Narrow: tone, length, what to avoid"
+        ],
+        "cta": "Save this prompt system →",
+        "board": "B02"
+      },
+      "use_case": "Very high save rate. Named frameworks perform well on Pinterest.",
+      "background": "Dark with step-by-step visual hierarchy"
+    },
+    {
+      "id": "PT06",
+      "name": "Product Pin",
+      "format": "Product visual + key benefits + price anchor",
+      "example": {
+        "headline": "The AI Blueprint",
+        "subtext": "40+ pages. 15 prompts. 20 industry scenarios. 30-day plan.",
+        "price": "Just $37",
+        "cta": "Get it now →",
+        "link": "https://lumenora.gumroad.com/l/hltwgb",
+        "board": "B05"
+      },
+      "use_case": "Direct conversion pin. Use sparingly (10–15% of total pins).",
+      "background": "Brand gradient with product mockup or text-only clean design"
+    },
+    {
+      "id": "PT07",
+      "name": "Lead Magnet Pin",
+      "format": "Free resource visual with opt-in CTA",
+      "example": {
+        "headline": "Free: The AI Career Survival Checklist",
+        "subtext": "27 actions to protect your income and get ahead — starting this week",
+        "badge": "FREE DOWNLOAD",
+        "cta": "Grab it at the link →",
+        "board": "B01"
+      },
+      "use_case": "Email list growth. High CTR when positioned as genuinely free.",
+      "background": "Dark with bright 'FREE' badge element"
+    }
+  ],
+
+  "pins_30_day_plan": [
+    {
+      "week": 1,
+      "focus": "Brand awareness + value posts",
+      "pins": [
+        { "template": "PT01", "topic": "40% productivity stat", "board": "B01" },
+        { "template": "PT02", "topic": "5 AI skills every professional needs", "board": "B02" },
+        { "template": "PT03", "topic": "AI won't take your job quote", "board": "B01" },
+        { "template": "PT05", "topic": "RISEN framework", "board": "B02" },
+        { "template": "PT04", "topic": "Marketing brief before/after", "board": "B03" },
+        { "template": "PT02", "topic": "5 ChatGPT prompts for writers", "board": "B02" },
+        { "template": "PT03", "topic": "Depth beats breadth quote", "board": "B04" }
+      ]
+    },
+    {
+      "week": 2,
+      "focus": "Lead magnet push + industry-specific content",
+      "pins": [
+        { "template": "PT07", "topic": "AI Career Survival Checklist", "board": "B01" },
+        { "template": "PT02", "topic": "5 AI use cases for marketing teams", "board": "B02" },
+        { "template": "PT04", "topic": "Finance report before/after AI", "board": "B03" },
+        { "template": "PT01", "topic": "85M jobs disrupted — 97M created stat", "board": "B01" },
+        { "template": "PT05", "topic": "30-day AI fluency roadmap", "board": "B04" },
+        { "template": "PT07", "topic": "Free AI Career Checklist (repeat)", "board": "B04" },
+        { "template": "PT02", "topic": "5 prompts for busy managers", "board": "B02" }
+      ]
+    },
+    {
+      "week": 3,
+      "focus": "Product visibility + testimonial content",
+      "pins": [
+        { "template": "PT06", "topic": "The AI Blueprint product pin", "board": "B05" },
+        { "template": "PT03", "topic": "Domain expertise + AI = unfair advantage quote", "board": "B01" },
+        { "template": "PT02", "topic": "5 AI tools for healthcare professionals", "board": "B02" },
+        { "template": "PT04", "topic": "Email before/after AI assistance", "board": "B03" },
+        { "template": "PT01", "topic": "Top 4% consultant performance stat", "board": "B01" },
+        { "template": "PT05", "topic": "AI role audit framework", "board": "B04" },
+        { "template": "PT07", "topic": "Free checklist (different visual)", "board": "B05" }
+      ]
+    },
+    {
+      "week": 4,
+      "focus": "Repins of best performers + evergreen content",
+      "pins": [
+        { "template": "PT02", "topic": "10 AI prompts for educators", "board": "B02" },
+        { "template": "PT05", "topic": "RISEN framework (new visual)", "board": "B02" },
+        { "template": "PT06", "topic": "AI Blueprint product (new visual)", "board": "B05" },
+        { "template": "PT03", "topic": "New AI quote", "board": "B01" },
+        { "template": "PT01", "topic": "30 minutes a day stat", "board": "B04" },
+        { "template": "PT07", "topic": "Lead magnet pin variant 3", "board": "B01" },
+        { "template": "PT04", "topic": "Research before/after AI", "board": "B03" }
+      ]
+    }
+  ],
+
+  "keyword_strategy": {
+    "primary_keywords": [
+      "AI career tips",
+      "how to use AI at work",
+      "AI prompts for professionals",
+      "future of work AI",
+      "AI career strategy 2025",
+      "ChatGPT for work",
+      "prompt engineering for beginners",
+      "AI tools for productivity"
+    ],
+    "secondary_keywords": [
+      "AI marketing tips",
+      "AI for finance professionals",
+      "remote work AI tools",
+      "career development 2025",
+      "digital skills future of work",
+      "AI upskilling",
+      "AI side hustle",
+      "AI digital products"
+    ],
+    "placement": "Include 3–5 keywords in pin description. Lead with the strongest keyword. Use natural language, not keyword stuffing."
+  },
+
+  "pin_description_template": "[Hook sentence with primary keyword]. [1–2 sentences expanding the value]. Save this for [specific use case]. [CTA with URL or 'link in bio'].\n\n#AICareers #FutureOfWork #AITools #CareerDevelopment #ChatGPTTips",
+
+  "tools": {
+    "scheduling": "Tailwind (batch schedule 3–5 pins/day)",
+    "design": "Canva (use Lumenora brand kit: dark bg, purple/blue/gold accents)",
+    "analytics": "Pinterest Analytics + Tailwind Analytics",
+    "repinning": "Join 2–3 Pinterest group boards in AI/productivity/career niche"
+  }
+}
